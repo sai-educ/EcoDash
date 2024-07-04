@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+}
+
+button.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
